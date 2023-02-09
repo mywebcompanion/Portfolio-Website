@@ -1,0 +1,21 @@
+name: Portfolio CI/CD
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Deploying to azure ubuntu server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd Portfolio-Website/
+            git pull
+            npm prune
+            npm install
