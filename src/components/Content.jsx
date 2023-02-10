@@ -16,6 +16,15 @@ export default function Content() {
               className="w-8 h-8 animate-spin-slow"
             />
           </div>
+
+          <div className="mt-24 font-semibold">Hello, I am</div>
+          <div className="mt-10 text-6xl font-bold text-transparent bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text">Pulkit Chauhan</div>
+          <div className="my-8 text-2xl font-semibold text-transparent bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text">Software Developer</div>
+          <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+            <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              See my Portfolio
+            </span>
+          </button>
         </div>
         <div className="w-1/2 flex justify-center items-center">
           <div className="w-3/4 h-[28.125vw] shadow-imageOutline">
