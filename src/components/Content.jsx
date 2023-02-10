@@ -1,15 +1,31 @@
 import React from "react";
 import Navbar from "./Navbar";
 import HackerImg from "../assets/hacker-image.png";
+import squareIcon from "../assets/square.svg";
 
 export default function Content() {
   return (
     <div className="w-3/4 mx-auto ">
       <Navbar />
-      <div className="flex">
-        <div className="w-1/2">First</div>
-        <div className="w-1/2 items-center">
-            <img src={HackerImg} alt="HackerImage" className="" />
+      <div className="flex h-[calc(100vh-4rem)]">
+        <div className="w-1/2">
+          <div className="ml-8 mt-4">
+            <img
+              src={squareIcon}
+              alt="square"
+              className="w-8 h-8 animate-spin-slow"
+            />
+          </div>
+          Hello
+        </div>
+        <div className="w-1/2 flex justify-center items-center">
+          <div className="w-3/4 h-[28.125vw] shadow-imageOutline">
+            <img
+              src={HackerImg}
+              alt="HackerImage"
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
       </div>
       {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>

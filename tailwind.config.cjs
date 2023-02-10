@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
+      boxShadow: {
+        'imageOutline': '0 0px 50px 25px rgb(0 0 0 / 1)'
+      }
+    },
   },
   plugins: [],
 }
