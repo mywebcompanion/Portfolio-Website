@@ -16,7 +16,6 @@ export default function Content() {
               className="w-8 h-8 animate-spin-slow"
             />
           </div>
-          Hello
         </div>
         <div className="w-1/2 flex justify-center items-center">
           <div className="w-3/4 h-[28.125vw] shadow-imageOutline">
