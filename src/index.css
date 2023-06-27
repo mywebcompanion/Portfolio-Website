@@ -112,3 +112,12 @@ button:focus-visible {
 ::-webkit-scrollbar-thumb:hover {
   background: #888;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page-container {
+  scroll-snap-align: start;
+  scroll-margin-top: 48px;
+}

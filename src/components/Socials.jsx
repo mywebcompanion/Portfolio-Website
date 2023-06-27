@@ -17,11 +17,11 @@ export default function Socials() {
       <div className="mt-6 w-auto ">
         <div className="h-20 bg-white w-0.5 ml-auto mr-auto"></div>
       </div>
-      <IconButton icon={twitterLogo} />
-      <IconButton icon={githubLogo} />
-      <IconButton icon={facebookLogo} />
-      <IconButton icon={linkedinLogo} />
-      <IconButton icon={gmailLogo} />
+      <IconButton icon={twitterLogo} url={'https://twitter.com/PulkitC92471102'} />
+      <IconButton icon={githubLogo} url={'https://github.com/pulkitchauhan03'} />
+      <IconButton icon={facebookLogo} url={'https://www.facebook.com/pulkit.chauhan.1048/'} />
+      <IconButton icon={linkedinLogo} url={'https://www.linkedin.com/in/pulkitchauhan03/'} />
+      <IconButton icon={gmailLogo} url={''} />
     </motion.div>
   );
 }
