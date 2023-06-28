@@ -6,6 +6,7 @@ import HackerImg from "../assets/hacker-image.png";
 import squareIcon from "../assets/square.svg";
 import downArrow from "../assets/arrow.svg";
 import { motion } from "framer-motion";
+import background from "../assets/background.jpg";
 import Projects from "./Projects";
 
 export default function Content() {
