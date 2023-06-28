@@ -6,8 +6,8 @@ import Content from "./components/Content";
 function App() {
   return (
     <div className="dark:bg-backgroundPrimary dark:text-white">
-      <Content />
       <Socials />
+      <Content />
     </div>
   );
 }
