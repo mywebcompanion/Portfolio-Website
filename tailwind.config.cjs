@@ -43,7 +43,7 @@ module.exports = {
         'imageOutline': '0 0px 50px 25px rgb(0 0 0 / 1)'
       },
       backgroundImage: {
-        'content-background': "url('./src/assets/background.jpg')",
+        'content-background': "url('./public/background.jpg')",
       },
     },
   },
