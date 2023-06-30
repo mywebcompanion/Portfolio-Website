@@ -1,12 +1,24 @@
 import React from "react";
-import IconButton from "./IconButton";
-import twitterLogo from "../assets/twitter-logo.svg";
-import githubLogo from "../assets/github.svg";
-import facebookLogo from "../assets/facebook.svg";
-import linkedinLogo from "../assets/linkedin.svg";  import gmailLogo from "../assets/gmail.svg";
 import { motion } from "framer-motion";
 
 export default function Socials() {
+  const IconButton = ({ iconClass, url }) => {
+    return (
+      <button
+        type="button"
+        className="mb-1 hover:bg-gradient-to-r from-grPrimary to-grSecondary hover:text-transparent focus:outline-none font-medium rounded-lg text-sm p-1 text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800"
+        onClick={() => {
+          window.open(url);
+        }}
+      >
+        <div className="w-8">
+          <i className={`${iconClass} text-2xl text-white`}></i>
+        </div>
+        {/* <img src={icon} alt="twitterLogo" className="h-6 w-6"></img> */}
+      </button>
+    );
+  }
+
   return (
     <motion.div
       animate={{ y: -300 }}

@@ -7,6 +7,7 @@ import squareIcon from "../assets/square.svg";
 import downArrow from "../assets/arrow.svg";
 import { motion } from "framer-motion";
 import Projects from "./Projects";
+import Resume from "./Resume";
 
 export default function Content() {
   const scrollClick = (e) => {
@@ -43,6 +44,7 @@ export default function Content() {
         </div>
         <About />
         <Projects />
+        <Resume />
       </div>
       <Navbar />
     </div>

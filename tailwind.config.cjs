@@ -12,6 +12,8 @@ module.exports = {
         'fira-code': ['Fira Code', 'monospace'],
         'tilt-prism': ['Tilt Prism', 'cursive'],
         'slackside': ['Sloackside One', 'cursive'],
+        'open-sans': ['Open Sans', 'sans-serif'],
+        'libre-baskerville': ['Libre Baskerville', 'serif']
       },
       colors: {
         'backgroundPrimary': '#2b2b2b',
