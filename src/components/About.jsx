@@ -14,7 +14,7 @@ export default function About() {
   }
 
   return (
-    <div className="mx-auto max-w-5xl w-11/12 py-32 flex page-container" id="about">
+    <div className="mx-auto max-w-5xl w-11/12 pt-20 pb-32 flex page-container" id="about">
       <div className="w-48">
         <img src={profilePic} alt="profile-pic" className="mx-auto h-32 w-32 rounded-full border-4 border-blue-500"></img>
       </div>
